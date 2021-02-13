@@ -1,0 +1,7 @@
+RewriteEngine On
+php_flag display_errors on
+php_value error_reporting E_ALL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule .* index.php [L,QSA]
