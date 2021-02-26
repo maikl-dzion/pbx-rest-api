@@ -416,8 +416,8 @@ function auth() {
 
     $authData = [
         'user'     => 'admin',
-        'password' => 'St969FMetido',
-        // 'password' => '123456Aa',
+        'password' => 'password',
+        // 'password' => 'password',
     ];
 
     $authUrl = API_URL . '/authenticate';
